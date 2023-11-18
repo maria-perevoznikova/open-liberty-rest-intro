@@ -1,4 +1,10 @@
 package io.openliberty.guides.rest;
 
-public class SystemApplication {
+import jakarta.ws.rs.ApplicationPath;
+import jakarta.ws.rs.core.Application;
+
+@ApplicationPath("system")
+
+public class SystemApplication extends Application {
 }
+
